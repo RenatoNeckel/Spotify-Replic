@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+  text-decoration: none;
+  font-family: 'Monstserrat', sans-serif;
+}
+
+a {
+  text-decoration: inherit;
+  color: aliceblue;
+}
+
+#root {
+  height: 100svh; /*comando para utilizar a cor em todo o view port */
+  display: flex; /* transformando o root em display flex */
+  flex-direction: column;
+}
+
+/* header */
+.header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+   
+.header__link:hover {
+  text-decoration: underline;
+}
+
+/* Main */
+
+.main {
+  border-radius: 15px;
+  padding: 20px;
+  margin: 0 10px 10px;
+  background-image: linear-gradient(to bottom, #062d16 , black ); /*degrade na img*/
+  flex: 1; /*so funciona em um flex child - nesse caso para dar cor de fundo ao main*/
+}
+
+.main__header {
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__link:hover {
+  text-decoration: underline;
+}
