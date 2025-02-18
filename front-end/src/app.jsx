@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/header"; //import do header que vai ser o cabeçalho
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/home";
+import Home from "./components/main";
 import Artists from "./components/pages/artists";
 import Artist from "./components/pages/artist";
 import Songs from "./components/pages/songs";
